@@ -7,19 +7,19 @@ namespace CarRentWebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class LocationsController : Controller
+    public class CarsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public LocationsController(ApplicationDbContext context)
+        public CarsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Location>>> GetLocations()
+        public async Task<ActionResult<IEnumerable<Car>>> GetCars()
         {
-            return await _context.Locations.ToListAsync();
+            return await _context.Cars.ToListAsync();
         }
     }
 }
