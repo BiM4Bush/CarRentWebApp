@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "CarRentWebApi\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:20:54.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Controllers\\CarsController.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CarRentWebApi\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:15:34.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Controllers\\LocationsController.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "CarRentWebApi\\Controllers\\LocationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:12:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CarRentWebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:12:15.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Program.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Program.cs",
+              "RelativeToolTip": "CarRentWebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:04:39.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
