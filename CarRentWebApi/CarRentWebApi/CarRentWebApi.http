@@ -1,0 +1,6 @@
+@CarRentWebApi_HostAddress = http://localhost:5221
+
+GET {{CarRentWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
