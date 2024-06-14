@@ -71,7 +71,7 @@ namespace CarRentWebApi.Migrations
                         column: x => x.ReturnLocationId,
                         principalTable: "Locations",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
