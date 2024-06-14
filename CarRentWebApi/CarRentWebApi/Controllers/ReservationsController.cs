@@ -1,5 +1,6 @@
 ﻿using CarRentWebApi.Data;
 using CarRentWebApi.Models;
+using CarRentWebApi.Models.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarRentWebApi.Controllers
@@ -29,17 +30,43 @@ namespace CarRentWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Reservation>> CreateReservation (Reservation reservation)
+        public async Task<ActionResult<Reservation>> CreateReservation (CreateReservationRequest request)
         {
-            var car = await _context.Cars.FindAsync(reservation.CarId);
-            if(car == null)
+            var car = await _context.Cars.FindAsync(request.CarId);
+            if (car == null)
             {
                 return NotFound();
             }
 
-            //Calculation total cost of reservation
-            reservation.RentCost = (reservation.ReturnDate - reservation.PickupDate).Days * car.RentCostPerDay;
+            var pickupLocation = await _context.Locations.FindAsync(request.PickupLocationId);
+            if (pickupLocation == null)
+            {
+                return NotFound();
+            }
 
+            var returnLocation = await _context.Locations.FindAsync(request.ReturnLocationId);
+            if (returnLocation == null)
+            {
+                return NotFound();
+            }
+
+
+            //Calculation total cost of reservation
+            var rentCost = (request.ReturnDate - request.PickupDate).Days * car.RentCostPerDay;
+
+            var reservation = new Reservation
+            {
+                CarId = request.CarId,
+                PickupLocationId = request.PickupLocationId,
+                ReturnLocationId = request.ReturnLocationId,
+                PickupDate = request.PickupDate,
+                ReturnDate = request.ReturnDate,
+                RentCost = rentCost,
+                Car = car,
+                PickupLocation = pickupLocation,
+                ReturnLocation = returnLocation
+            };
+            
             _context.Reservations.Add(reservation);
             await _context.SaveChangesAsync();
 
