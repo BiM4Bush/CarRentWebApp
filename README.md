@@ -44,7 +44,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 3. **Install the necessary packages:**
 
    ```bash
-   cd CarRentWebApi
+   dotnet restore
 
 4. **Update the database connection string:**
     Update the connection string in appsettings.json to point to your SQL Server instance.
@@ -52,7 +52,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```json
       {
         "ConnectionStrings": {
-            "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TeslaRentalDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+            "DefaultConnection": "Server=localhost;Database=CarRentDb;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true"
         }
       }
    ```
