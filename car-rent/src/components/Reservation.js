@@ -37,7 +37,8 @@ const Reservation = () => {
         const { carId, nameSurname, email, pickupDate, returnDate, pickupLocationId, returnLocationId } = reservation;
         axios.post('https://localhost:7069/Reservations', { carId, nameSurname, email, pickupDate, returnDate, pickupLocationId, returnLocationId })
         .then(response =>{
-            alert("Reservation created successfully!");
+            const rentCost = response.data.rentCost;
+            alert(`Reservation created successfully! Total cost of reservation: ${rentCost}`);
             setReservation({
                 carId: '',
                 nameSurname: '',

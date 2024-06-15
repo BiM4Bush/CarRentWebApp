@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarRentWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d20acc81e35cb82ffa9b33a841798a2cc2b88270")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+945b9fc153869874a80008d62abea7b54b173817")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarRentWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarRentWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
