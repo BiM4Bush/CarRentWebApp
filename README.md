@@ -10,6 +10,7 @@ This is a web application for renting Tesla cars in Mallorca. Users can create a
 - [Frontend Setup](#frontend-setup)
 - [API Documentation](#api-documentation)
 - [Usage](#usage)
+- [My assumptions](#my-assumptions)
 
 ## Technologies Used
 
@@ -135,3 +136,22 @@ The API documentation is available via Swagger. To access it:
     "returnLocationId": 2
   }
   ```
+
+## My assumptions
+
+1. **Completing the database:**
+
+   I chose to use the 'Seed' method as part of migration as a way to supplement our local database with available cars and available locations. This procedure involves adding appropriate SQL operations to the migration code so that the       records are added when creating the database:
+   ```bash
+
+   migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model S', '250');");
+   migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model 3', '350');");
+   migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model X', '540');");
+   migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model y', '260');");
+   migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Cybertruck', '1000');");
+
+   migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Palma Airport');");
+   migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Palma City Center');");
+   migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Alcudia');");
+   migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Manacor');");
+   ```
