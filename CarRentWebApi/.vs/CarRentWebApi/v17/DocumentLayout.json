@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\migrations\\20240615141104_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\migrations\\20240615141104_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,32 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240615141104_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Migrations\\20240615141104_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CarRentWebApi\\Migrations\\20240615141104_InitialCreate.cs",
-              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Migrations\\20240615141104_InitialCreate.cs",
-              "RelativeToolTip": "CarRentWebApi\\Migrations\\20240615141104_InitialCreate.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAAAF0AAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:11:08.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "CarRentWebApi\\Controllers\\ReservationsController.cs",
               "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Controllers\\ReservationsController.cs",
               "RelativeToolTip": "CarRentWebApi\\Controllers\\ReservationsController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAEoAAABfAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADYAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T14:09:33.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CarRentWebApi\\Data\\ApplicationDbContext.cs",
@@ -73,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CreateReservationRequest.cs",
               "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Models\\Request\\CreateReservationRequest.cs",
               "RelativeDocumentMoniker": "CarRentWebApi\\Models\\Request\\CreateReservationRequest.cs",
               "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Models\\Request\\CreateReservationRequest.cs",
               "RelativeToolTip": "CarRentWebApi\\Models\\Request\\CreateReservationRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T14:09:01.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Reservation.cs",
               "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "CarRentWebApi\\Models\\Reservation.cs",
               "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Models\\Reservation.cs",
               "RelativeToolTip": "CarRentWebApi\\Models\\Reservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T14:08:36.826Z",
               "EditorCaption": ""
