@@ -7,6 +7,8 @@ const Reservation = () => {
     const [cars, setCars] = useState([]);
     const [reservation, setReservation] = useState({
         carId: '',
+        nameSurname: '',
+        email: '',
         pickupLocationId: '',
         returnLocationId: '',
         pickupDate: '',
@@ -32,20 +34,20 @@ const Reservation = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const { carId, pickupDate, returnDate, pickupLocationId, returnLocationId } = reservation;
-        axios.post('https://localhost:7069/Reservations', { carId, pickupDate, returnDate, pickupLocationId, returnLocationId })
+        const { carId, nameSurname, email, pickupDate, returnDate, pickupLocationId, returnLocationId } = reservation;
+        axios.post('https://localhost:7069/Reservations', { carId, nameSurname, email, pickupDate, returnDate, pickupLocationId, returnLocationId })
         .then(response =>{
             alert("Reservation created successfully!");
             setReservation({
                 carId: '',
+                nameSurname: '',
+                email: '',
                 pickupLocationId: '',
                 returnLocationId: '',
                 pickupDate: '',
                 returnDate: '',
             });
-        } 
-            
-                            )
+        })
         .catch(error => console.error("An error occured while posting reservation", error))
     };
 
