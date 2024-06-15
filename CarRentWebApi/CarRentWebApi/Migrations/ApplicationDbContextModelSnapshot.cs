@@ -70,6 +70,14 @@ namespace CarRentWebApi.Migrations
                     b.Property<int>("CarId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameSurname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("PickupDate")
                         .HasColumnType("datetime2");
 

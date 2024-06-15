@@ -57,6 +57,8 @@ namespace CarRentWebApi.Controllers
             var reservation = new Reservation
             {
                 CarId = request.CarId,
+                NameSurname = request.NameSurname,
+                Email = request.Email,
                 PickupLocationId = request.PickupLocationId,
                 ReturnLocationId = request.ReturnLocationId,
                 PickupDate = request.PickupDate,
