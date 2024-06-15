@@ -44,6 +44,8 @@ namespace CarRentWebApi.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    NameSurname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CarId = table.Column<int>(type: "int", nullable: false),
                     PickupLocationId = table.Column<int>(type: "int", nullable: false),
                     ReturnLocationId = table.Column<int>(type: "int", nullable: false),
@@ -88,6 +90,17 @@ namespace CarRentWebApi.Migrations
                 name: "IX_Reservations_ReturnLocationId",
                 table: "Reservations",
                 column: "ReturnLocationId");
+
+            migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model S', '250');");
+            migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model 3', '350');");
+            migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model X', '540');");
+            migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Model y', '260');");
+            migrationBuilder.Sql("INSERT INTO Cars (Model, RentCostPerDay) VALUES ('Cybertruck', '1000');");
+
+            migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Palma Airport');");
+            migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Palma City Center');");
+            migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Alcudia');");
+            migrationBuilder.Sql("INSERT INTO Locations (Name) VALUES ('Manacor');");
         }
 
         /// <inheritdoc />

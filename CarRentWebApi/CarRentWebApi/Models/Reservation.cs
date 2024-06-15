@@ -3,6 +3,8 @@
     public class Reservation
     {
         public int Id { get; set; }
+        public string NameSurname { get; set; }
+        public string Email { get; set; }
         public int CarId { get; set; }
         public int PickupLocationId { get; set; }
         public int ReturnLocationId { get; set; }

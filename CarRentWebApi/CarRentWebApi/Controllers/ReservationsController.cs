@@ -51,17 +51,19 @@ namespace CarRentWebApi.Controllers
             }
 
 
-            //Calculation total cost of reservation
-            var rentCost = (request.ReturnDate - request.PickupDate).Days * car.RentCostPerDay;
+            //Calculation total days of reservation
+            var rentalDays = (request.ReturnDate - request.PickupDate).Days;
 
             var reservation = new Reservation
             {
                 CarId = request.CarId,
+                NameSurname = request.NameSurname,
+                Email = request.Email,
                 PickupLocationId = request.PickupLocationId,
                 ReturnLocationId = request.ReturnLocationId,
                 PickupDate = request.PickupDate,
                 ReturnDate = request.ReturnDate,
-                RentCost = rentCost,
+                RentCost = rentalDays == 0 ? car.RentCostPerDay : rentalDays * car.RentCostPerDay, //Calculation total cost of reservation
                 Car = car,
                 PickupLocation = pickupLocation,
                 ReturnLocation = returnLocation

@@ -6,6 +6,14 @@ const ReservationForm = ({ cars, locations, handleChange, handleSubmit, reservat
         <form className="reservation-form" onSubmit={handleSubmit}>
         <h1>Rent a Tesla</h1>
         <label>
+          Name and Surname:
+          <input type="text" name="nameSurname" value={reservation.nameSurname} onChange={handleChange} required />
+        </label>
+        <label>
+          Email:
+          <input type="text" name="email" value={reservation.email} onChange={handleChange} required />
+        </label>
+        <label>
           Car Model:
           <select name="carId" value={reservation.carId} onChange={handleChange} required>
             <option value="">Select a car</option>
