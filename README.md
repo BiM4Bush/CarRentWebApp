@@ -13,7 +13,7 @@ This is a web application for renting Tesla cars in Mallorca. Users can create a
 
 ## Technologies Used
 
-- **Backend:** ASP.NET Core, Entity Framework Core, SQL Server
+- **Backend:** ASP.NET Core, Entity Framework Core, xUnit, SQL Server
 - **Frontend:** React, Axios
 - **Documentation:** Swagger
 
