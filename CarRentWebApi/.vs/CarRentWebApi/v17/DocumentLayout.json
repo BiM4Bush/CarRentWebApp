@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|d:\\repozytoria\\carrentwebapp\\carrentwebapi\\carrentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E35195-FF14-4119-86D3-D349A3E09357}|CarRentWebApi\\CarRentWebApi.csproj|solutionrelative:carrentwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentWebApi\\Program.cs",
+              "ToolTip": "D:\\Repozytoria\\CarRentWebApp\\CarRentWebApi\\CarRentWebApi\\Program.cs",
+              "RelativeToolTip": "CarRentWebApi\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:12:07.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
